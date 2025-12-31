@@ -1,0 +1,24 @@
+{
+  "users": [
+  {
+  "products": [
+    {
+      "id": 1,
+      "title": "T-Shirt",
+      "price": 499
+    },
+    {
+      "id": 2,
+      "title": "Shoes",
+      "price": 1999
+    },
+    {
+      "id": 3,
+      "title": "Watch",
+      "price": 2999
+    }
+  ]
+}
+
+  ]
+}
