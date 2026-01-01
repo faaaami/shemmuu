@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css"
-import { BrowserRouter,Routes,Route } from "react-router-dom";
+import { HashRouter,Routes,Route } from "react-router-dom";
 import Home from "./components/Home";
 import One from "./Components/One";
 import Two from "./Components/Two";
