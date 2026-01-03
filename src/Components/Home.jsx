@@ -10,12 +10,16 @@ const Home = () => {
       navigate("/One");
     } else {
       alert("Hmm 😅 try again");
+      
     }
   };
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-200 to-rose-300 px-4">
       <div className="bg-white w-full max-w-md p-6 sm:p-8 rounded-2xl shadow-xl text-center">
+        <button onClick={()=>{
+          setPass("faamika")
+        }}>faamika</button>
         
         <h1 className="text-xl sm:text-2xl font-bold text-pink-600 mb-4">
           Answer The Question 💖

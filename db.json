@@ -1,24 +1,16 @@
 {
-  "users": [
-  {
-  "products": [
+  "reviews": [
     {
-      "id": 1,
-      "title": "T-Shirt",
-      "price": 499
+      "id": "c110",
+      "text": "geg"
     },
     {
-      "id": 2,
-      "title": "Shoes",
-      "price": 1999
+      "id": "3838",
+      "text": "r3rrewr"
     },
     {
-      "id": 3,
-      "title": "Watch",
-      "price": 2999
+      "id": "92d9",
+      "text": "kjbkbkkhbkhbkbj"
     }
-  ]
-}
-
   ]
 }

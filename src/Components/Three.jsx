@@ -4,6 +4,10 @@ import { useNavigate } from "react-router-dom";
 const Three = () => {
   const navigate = useNavigate();
 
+  function rev(){
+    navigate("/review")
+  }
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-rose-300 to-pink-400 px-4">
       <div className="bg-white w-full max-w-md p-6 sm:p-8 rounded-2xl shadow-xl text-center animate-fadeIn">
@@ -104,6 +108,7 @@ const Three = () => {
           }
         `}
       </style>
+      <button onClick={rev}>give me a feed back about me </button>
     </div>
   );
 };
